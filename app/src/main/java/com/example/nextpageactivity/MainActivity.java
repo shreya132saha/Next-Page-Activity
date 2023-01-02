@@ -1,13 +1,12 @@
 package com.example.nextpageactivity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +15,10 @@ public class MainActivity extends AppCompatActivity {
     private Button broadcast;
     private Button gridlayout;
     private Button pager;
-    private  Button sharedpref;
+    private Button sharedpref;
+    private Button mediacam;
+    private Button dencrypt;
+    private Button notify;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
         gridlayout= (Button) findViewById(R.id.gridlayout);
         pager= (Button) findViewById(R.id.pager);
         sharedpref = (Button) findViewById(R.id.sharedpref);
+        mediacam= (Button) findViewById(R.id.mediacam);
+        dencrypt=(Button) findViewById(R.id.dencrypt);
+        notify=(Button) findViewById(R.id.notify);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -62,6 +67,28 @@ public class MainActivity extends AppCompatActivity {
                 openActivity6();
             }
         });
+
+        mediacam.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                openActivity7();
+            }
+        });
+        dencrypt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                openActivity8();
+            }
+        });
+        notify.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                openActivity9();
+            }
+        });
     }
     public  void  openActivity2()
     {
@@ -86,6 +113,21 @@ public class MainActivity extends AppCompatActivity {
     public  void  openActivity6()
     {
         Intent intent = new Intent(this, Shared_Preference.class);
+        startActivity(intent);
+    }
+    public  void  openActivity7()
+    {
+        Intent intent = new Intent(this, Media_Cam.class);
+        startActivity(intent);
+    }
+    public  void  openActivity8()
+    {
+        Intent intent = new Intent(this, Encryption.class);
+        startActivity(intent);
+    }
+    public  void  openActivity9()
+    {
+        Intent intent = new Intent(this, Notification.class);
         startActivity(intent);
     }
 

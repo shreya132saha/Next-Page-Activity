@@ -21,36 +21,36 @@
         >
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/sqlite"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_height="100sp"
             android:background="#ffffff"
-            android:text="@string/gridbutton"
+            android:text="SQLite in\n android"
             android:textSize="18sp" />
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/getretro"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_height="100sp"
             android:background="#ffffff"
-            android:text="@string/gridbutton"
+            android:text="Get Retrofit"
             android:textSize="18sp" />
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/recycler"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_height="100sp"
             android:background="#ffffff"
-            android:text="@string/gridbutton"
-            android:textSize="18sp" />
+            android:text="Recycler"
+            android:textSize="15sp" />
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/postretro"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_height="100sp"
             android:background="#ffffff"
-            android:text="@string/gridbutton"
+            android:text="Post Retro"
             android:textSize="18sp" />
         <Button
             android:id="@+id/button5"
@@ -58,7 +58,7 @@
             android:layout_columnWeight="1"
             android:layout_height="100sp"
             android:background="#ffffff"
-            android:text="@string/gridbutton"
+            android:text="Button"
             android:textSize="18sp" />
         <Button
             android:id="@+id/button6"
@@ -66,7 +66,7 @@
             android:layout_columnWeight="1"
             android:layout_height="100sp"
             android:background="#ffffff"
-            android:text="@string/gridbutton"
+            android:text="Button"
             android:textSize="18sp" />
         <Button
         android:id="@+id/button7"
@@ -74,7 +74,7 @@
         android:layout_columnWeight="1"
         android:layout_height="100sp"
         android:background="#ffffff"
-        android:text="@string/gridbutton"
+        android:text="Button"
         android:textSize="18sp" />
         <Button
         android:id="@+id/button8"
@@ -82,7 +82,7 @@
         android:layout_columnWeight="1"
         android:layout_height="100sp"
         android:background="#ffffff"
-        android:text="@string/gridbutton"
+        android:text="Button"
         android:textSize="18sp" />
         <Button
         android:id="@+id/button9"
@@ -90,7 +90,7 @@
         android:layout_columnWeight="1"
         android:layout_height="100sp"
         android:background="#ffffff"
-        android:text="@string/gridbutton"
+        android:text="Button"
         android:textSize="18sp" />
         <Button
         android:id="@+id/button10"
@@ -98,7 +98,7 @@
         android:layout_columnWeight="1"
         android:layout_height="100sp"
         android:background="#ffffff"
-        android:text="@string/gridbutton"
+        android:text="Button"
         android:textSize="18sp" />
         <Button
         android:id="@+id/button11"
@@ -106,7 +106,7 @@
         android:layout_columnWeight="1"
         android:layout_height="100sp"
         android:background="#ffffff"
-        android:text="@string/gridbutton"
+        android:text="Button"
         android:textSize="18sp" />
         <Button
             android:id="@+id/button12"
@@ -114,7 +114,7 @@
             android:layout_columnWeight="1"
             android:layout_height="100sp"
             android:background="#ffffff"
-            android:text="@string/gridbutton"
+            android:text="Button"
             android:textSize="18sp" />
         <Button
             android:id="@+id/button13"
@@ -122,7 +122,7 @@
             android:layout_columnWeight="1"
             android:layout_height="100sp"
             android:background="#ffffff"
-            android:text="@string/gridbutton"
+            android:text="Button"
             android:textSize="18sp" />
         <Button
         android:id="@+id/button14"
@@ -130,7 +130,7 @@
         android:layout_columnWeight="1"
         android:layout_height="100sp"
         android:background="#ffffff"
-        android:text="@string/gridbutton"
+        android:text="Button"
         android:textSize="18sp" />
 
     </GridLayout>

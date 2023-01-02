@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET">
+
+    </uses-permission>
 
     <application
         android:allowBackup="true"
@@ -15,33 +18,43 @@
         <activity
             android:name=".MyReceiver"
             android:enabled="true"
-            android:exported="true"></activity>
+            android:exported="true" />
 
-        <service android:name=".MyService"/>
+        <service android:name=".MyService" />
 
         <activity
             android:name=".MainActivity2"
-            android:exported="true">
+            android:exported="true"
+            android:label="Services">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".MainActivity3"
-            android:exported="true">
+            android:exported="true"
+            android:label="Broadcast">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name=".GridLayout"
-             />
-        <activity
-            android:name=".ViewPagerActivity"
-            />
-        <activity
-            android:name=".Shared_Preference"
-            />
+        <activity android:name=".GridLayout"
+            android:label="Learn many more!"/>
+        <activity android:name=".ViewPagerActivity" />
+        <activity android:name=".Shared_Preference"
+            android:label="Shared Preferences"/>
+        <activity android:name=".Media_Cam" />
+        <activity android:name=".Media" />
+        <activity android:name=".Camera" />
+        <activity android:name=".Encryption" />
+        <activity android:name=".Notification"
+            android:label="Local Notification"/>
+        <activity android:name=".SQLite_Demo"
+            android:label="SQLite Demo"/>
+        <activity android:name=".Get_Retrofit"/>
+        <activity android:name=".RetroPost_main"/>
+        <activity android:name=".Recycler_Main"
+            android:label="Recycler View"/>
 
 
         <activity
